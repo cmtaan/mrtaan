@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #E0EBE8;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    margin-top: 0;
+    font-family: 'Sacramento', cursive;
+    color: #4AB19A;
+    font-size: 50px;
+}
+
+
+/* -------------------------------- CLASS ----------------- */
+
+.container {
+    margin: 30px auto;
+    position: relative;
+}
+
+.container p {
+    color: #4AB19A;
+    font-size: 20px;
+}
+
+.cloud-top {
+    position: relative;
+    top: 0;
+    left: 12%;
+}
+
+.cloud-bottom {
+    position: absolute;
+    top: 14%;
+    left: 34%;
+}
