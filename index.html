@@ -7,15 +7,16 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Sacramento&display=swap" rel="stylesheet">
+    <script src="js/sound.js"></script>
     <title>Chu Minh Tan</title>
 </head>
 
 <body>
     <div class="container">
         <img src="images/cloud.svg" alt="cloud-top-img" class="cloud-top">
-        <h1>Mr. Taan .</h1>
+        <h1>Mr. Taan</h1>
         <p>a programmer</p>
-        <img src="images/cloud white.png" alt="cloud-bottom-img" class="cloud-bottom">
+        <img src="images/cloud.svg" alt="cloud-bottom-img" class="cloud-bottom">
         <img src="images/land.svg" alt="mountain-img">
     </div>
 
@@ -54,6 +55,11 @@
         <a class="footer-link" href="https://twitter.com/">Twitter</a>
         <p>© 2020 Mr. Taan.</p>
     </div>
+
+    <audio id="bg-sound" controls src="sound/bg.mp3" onload="myFunction()">
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
 </body>
 
 </html>

@@ -23,12 +23,13 @@ h1 {
 .container p {
     color: #4AB19A;
     font-size: 20px;
+    margin: 20px 0;
 }
 
 .cloud-top {
     position: relative;
-    top: 0;
-    left: 12%;
+    top: -3%;
+    right: 34%;
 }
 
 .cloud-bottom {
