@@ -1,39 +1,71 @@
 body {
     margin: 0;
-    text-align: center;
-    background-color: #E0EBE8;
     font-family: 'Merriweather', serif;
+    background-color: #f4f6ff;
 }
 
 h1 {
     margin-top: 0;
     font-family: 'Sacramento', cursive;
     color: #4AB19A;
-    font-size: 50px;
+    font-size: 5.625rem;
+    position: relative;
+    bottom: 2%;
 }
 
 
 /* -------------------------------- CLASS ----------------- */
 
-.container {
-    margin: 30px auto;
+.top-container {
+    text-align: center;
+    height: 500px;
+    margin: 0 auto;
+    padding: 30px 0 0;
     position: relative;
+    background: url("../images/wallpaper.jpg") no-repeat top left;
+    background-size: 100% 100%;
 }
 
-.container p {
-    color: #4AB19A;
+.top-container p {
+    color: #fff;
     font-size: 20px;
     margin: 20px 0;
-}
-
-.cloud-top {
     position: relative;
-    top: -3%;
-    right: 34%;
+    bottom: 12%;
 }
 
-.cloud-bottom {
+.top-container .cloud-top {
     position: absolute;
-    top: 14%;
-    left: 34%;
+    top: 2%;
+    right: 30%;
+}
+
+.top-container #avatar {
+    position: relative;
+    top: 141px;
+}
+
+.middle-container {
+    padding: 6% 2%;
+}
+
+.middle-container .name {
+    color: #4A8ECB;
+    text-align: center;
+}
+
+.middle-container .project-content {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0.1);
+    background-color: #f5f1da;
+    padding: 10px 10px;
+    margin: 10px auto;
+}
+
+.middle-container .project-content a,
+a:hover,
+a:visited {
+    text-decoration: none;
+    color: #006a71
 }
