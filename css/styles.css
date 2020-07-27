@@ -24,6 +24,7 @@ h1 {
     position: relative;
     background: url("../images/wallpaper.jpg") no-repeat top left;
     background-size: 100% 100%;
+    margin-bottom: 50px;
 }
 
 .top-container p {
@@ -42,6 +43,7 @@ h1 {
 
 .top-container #avatar {
     position: relative;
+    border-radius: 50%;
     top: 141px;
 }
 
