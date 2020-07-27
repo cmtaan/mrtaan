@@ -8,8 +8,8 @@ const swap = document.getElementById('swap-btn');
 
 // Fecth exchange rates and update the DOM
 function calculate() {
-    const cur_one = currency_one.value;
-    const cur_two = currency_two.value;
+    let cur_one = currency_one.value;
+    let cur_two = currency_two.value;
 
     fetch(`https://v6.exchangerate-api.com/v6/a6dd84da0a32707c9e3c5ae8/latest/${cur_one}`)
         .then(res => res.json())
@@ -24,7 +24,6 @@ function calculate() {
 // Swap 
 function swapFunc() {
     const temp = currency_one.value;
-
     currency_one.value = currency_two.value;
     currency_two.value = temp;
     calculate();
