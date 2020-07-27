@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/exchange-rate-calculator.css">
+    <link rel="shortcut icon" href="images/change-rate.ico" type="image/x-icon">
+    <title>Exchange Rate Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <img src="images/change-rate-img.png" alt="change rate img">
+        <h1>Exchange Rate Calculator</h1>
+        <p>Choose the currency and the amounts to get the exchange rate</p>
+        <div class="currency">
+            <select id="currency-one">
+                <option value="CAD">CAD</option>
+                <option value="CNY">CNY</option>
+                <option value="JPY">JPY</option>
+                <option value="USD" selected>USD</option>
+                <option value="EUR">EUR</option>
+            </select>
+            <input type="number" id="amount-one" value='1' placeholder="Amount" min='0'>
+        </div>
+
+
+        <div class="swap-container">
+            <button id="swap-btn">Swap</button>
+            <div id="rate"></div>
+        </div>
+
+
+        <div class="currency">
+            <select id="currency-two">
+                <option value="CAD">CAD</option>
+                <option value="CNY">CNY</option>
+                <option value="JPY">JPY</option>
+                <option value="USD">USD</option>
+                <option value="EUR" selected>EUR</option>
+            </select>
+            <input type="number" id="amount-two" placeholder="0" min='0'>
+        </div>
+    </div>
+
+    <script src="js/exchange-rate-calculator.js"></script>
+</body>
+
+</html>
