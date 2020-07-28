@@ -5,12 +5,25 @@ body {
 }
 
 h1 {
-    margin-top: 0;
+    margin: 0;
     font-family: 'Sacramento', cursive;
     color: #4AB19A;
     font-size: 5.625rem;
     position: relative;
     bottom: 2%;
+}
+
+h3 {
+    color: #4A8ECB;
+}
+
+a {
+    font-weight: bold;
+}
+
+hr {
+    width: 60%;
+    margin: 20px auto;
 }
 
 
@@ -31,8 +44,9 @@ h1 {
     color: #fff;
     font-size: 20px;
     margin: 20px 0;
-    position: relative;
-    bottom: 12%;
+    position: absolute;
+    top: 32%;
+    left: 45%;
 }
 
 .top-container .cloud-top {
@@ -42,9 +56,10 @@ h1 {
 }
 
 .top-container #avatar {
-    position: relative;
+    position: absolute;
     border-radius: 50%;
-    top: 141px;
+    bottom: -15%;
+    left: 45%;
 }
 
 .middle-container {
@@ -62,12 +77,12 @@ h1 {
     box-shadow: 0 1px 10px rgba(0, 0, 0.1);
     background-color: #f5f1da;
     padding: 10px 10px;
-    margin: 10px auto;
+    margin: 20px auto;
 }
 
 .middle-container .project-content a,
 a:hover,
 a:visited {
     text-decoration: none;
-    color: #006a71
+    color: #4A8ECB;
 }
